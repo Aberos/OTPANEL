@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+
+
+# [3] SERIE #
+RewriteRule series/([0-9-a-zA-Z_-]+)\/?$ painel.php?exe=series&atual=$1 [NC,L]
