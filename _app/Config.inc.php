@@ -1,8 +1,8 @@
 <?php
 
-//BASE DP SITE
-define('SERVERURL', 'http://localhost/OTPanel/');
-define('SERVERNAME', 'OTPanel');
+//BASE DO SITE
+define('SERVERURL', 'http://localhost/OTPanel/');   //ENDEREÇO DO PAINEL
+define('SERVERNAME', 'OTPanel');                    //NOME DO SERVIDOR
 
 // CONFIGRAÇÕES DO SITE ####################
 define('HOST', 'localhost');//HOST DO BANCO DE DADOS 
