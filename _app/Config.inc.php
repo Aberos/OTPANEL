@@ -3,14 +3,12 @@
 //BASE DP SITE
 define('SERVERURL', 'http://localhost/OTPanel/');
 define('SERVERNAME', 'OTPanel');
-define('SERVERDESC', '');
-define('SERVERTAGS', '');
 
 // CONFIGRAÇÕES DO SITE ####################
-define('HOST', 'localhost');
-define('USER', 'root');
-define('PASS', 'saosao');
-define('DBSA', 'ps');
+define('HOST', 'localhost');//HOST DO BANCO DE DADOS 
+define('USER', 'root');     //USUARIO DO BANCO DE DADOS
+define('PASS', '');         //SENHA DO BANCO DE DADOS
+define('DBSA', '');         //NOME DO BANCO DE DADOS
 
 function __autoload($Class){
 		$cDir = ['Conn', 'Helpers', 'Models', '_models'];
