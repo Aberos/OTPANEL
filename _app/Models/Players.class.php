@@ -2,7 +2,7 @@
 /**
  * Players.class [ MODEL ]
  * Classe responsavel pela manipulação de players
- * @copyright (c) 2016, Felipe Muniz, CEOS OT PANEL
+ * @copyright (c) 2016, Felipe Muniz, OTPanel
  */
 class Players {
 
@@ -24,8 +24,8 @@ class Players {
     }
     
     /**
-     * Obtem Episódios de uma serie especifica para o painel
-     * @return $Array [] de generos
+     * Obtem players para o painel
+     * @return $Array [] de players
      */
     public static function GetPlayersAccount($id) {
 
@@ -44,7 +44,7 @@ class Players {
     }
     
     /**
-     * Obtem todas as contas
+     * Obtem todas os players
      * @return $Array [] de players
      */
     public static function GetPlayers() {

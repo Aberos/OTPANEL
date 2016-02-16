@@ -2,12 +2,13 @@
 /**
  * Accounts.class [ MODEL ]
  * Classe responsavel pela manipulação de contas
- * @copyright (c) 2016, Felipe Muniz, CEOS OT PANEL
+ * @copyright (c) 2016, Felipe Muniz, OTPanel
  */
 class Accounts {
     
     /**
      * Obtem a quantidade total de contas
+     * @return $Array [] de contas
      */
     public static function GetCount() {
 
@@ -25,6 +26,7 @@ class Accounts {
     
     /**
      * Obtem a quantidade total de contas vips
+     * @return $Array [] de contas vips
      */
     public static function GetCountVip() {
 
@@ -42,6 +44,7 @@ class Accounts {
     
     /**
      * Obtem a quantidade total de contas vips
+     * @return $Array [] de contas vips
      */
     public static function GetCountBans() {
 
@@ -93,6 +96,7 @@ class Accounts {
     
     /**
      * Obtem o nome da conta
+     * @return $Array [] de contas
      */
     public static function GetNameAccountId($id) {
 

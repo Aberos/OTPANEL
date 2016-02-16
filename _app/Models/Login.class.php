@@ -2,7 +2,7 @@
 /**
  * Login.class [ MODEL ]
  * Responável por autenticar, validar, e checar usuário do sistema de login!
- * @copyright (c) 2016, Felipe Muniz, CEOS OT PANEL
+ * @copyright (c) 2016, Felipe Muniz, OTPanel
  */
 class Login {
 
